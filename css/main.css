@@ -159,15 +159,16 @@ summary {
 }
 
 
-h2::after > details {
-   content: "";
-   width: 412px;
-}
-
-input[type="checkbox"]:checked + span::after{
+.checkbox-container {
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+ }
+ 
+ input[type="checkbox"]:checked + span::after {
    content: "❤️" ;
-   margin-left: 5px;
-}
+   margin-left: 5px; 
+ }
 
 
 #Exotic-con {
