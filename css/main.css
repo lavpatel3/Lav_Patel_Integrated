@@ -90,6 +90,7 @@
  #hero {
     background: url(../images/Room\ Main.jpeg) no-repeat;
     height: 200px;
+    width: 412px;
  }
  
  .book-now {
@@ -340,13 +341,14 @@ p {
 }
 
 #footer-hero {
-   background-image: url(../images/footer.jpg);
+   background-image: url(../images/footer.jpg) ;
 	background-repeat: no-repeat;
    color: #fff;
    font-size: 12px;
    margin-top: 40px;
    padding-bottom: 80px;
 }
+
 
 #footer-hero h3 {
    margin-top: 30px;
@@ -371,3 +373,21 @@ p {
 a  {
    color: #efefef;
 }
+
+.heading {
+   width: 412px;
+   align-items: center;
+   margin: 20px auto;
+   font-size: 8px;
+   background-color: #ECEBEB;
+}
+
+.heading > p {
+   line-height: 15px;
+}
+
+hr {
+   border-bottom: 2px solid #cb0d0d;
+   width: 412px;
+ }
+
