@@ -92,6 +92,12 @@
     height: 200px;
     width: 412px;
  }
+
+ #spa {
+   background: url(../images/Spa\ Main.jpg) no-repeat;
+   height: 200px;
+
+}
  
  .book-now {
     background-color: #9a2018;
@@ -151,6 +157,7 @@ details {
     border: solid 1px #ccc;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 summary {
@@ -392,3 +399,176 @@ hr {
    width: 412px;
  }
 
+ #hand-feet-treatment-con {
+   background: url(../images/hand-feet-treatment.jpg);
+   height: 195px;
+}
+
+#hand-feet-treatment-heading-box {
+   align-self: end;
+}
+
+#hand-feet-treatment-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#hand-feet-treatment-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#Indian-Head-Massage-con {
+   background: url(../images/Indian\ head\ massage.jpg);
+   height: 195px;
+   max-width: 380px;
+}
+
+#Indian-Head-Massage-heading-box {
+   align-self: end;
+}
+
+#Indian-Head-Massage-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#Indian-Head-Massage-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#Scrubs-Wraps-And-Facials-con {
+   background: url(../images/cream.jpeg);
+   height: 195px;
+   width: 380px;
+}
+
+#Scrubs-Wraps-And-Facials-heading-box {
+   align-self: end;
+}
+
+#Scrubs-Wraps-And-Facials-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#Scrubs-Wraps-And-Facials-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+.price-list {
+   list-style-type: none;
+   padding: 0;
+}
+
+.price-list li {
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+
+
+.price {
+   font-weight: bold;
+   border-bottom: 2px solid #cb0d0d; 
+   margin-left: 30px;
+}
+
+#Therary-con {
+   background: url(../images/REGISTERED\ MASSAGE\ THERAPY.jpeg);
+   height: 195px;
+}
+
+#Therary-heading-box {
+   align-self: end;
+}
+
+#Therary-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#Therary-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+.price-list {
+   padding: 22px;
+   border:  1px #ECEBEB;
+   background-color: #ECEBEB;
+   border-radius: 0;
+   margin-bottom: 30px;
+   width: auto;
+} 
+
+.price-list {
+   display: flex;
+   justify-content: space-around;
+   background-color: #ECEBEB;
+}
+ 
+.price-item {
+   text-align: center;
+}
+
+.price-item span {
+   margin-left: 10px;
+}
+
+.price-item > span {
+      display: flex;
+      height: 20px; 
+      align-items: center; 
+      justify-content: center;
+      border-bottom: 2px solid #cb0d0d; 
+}
+
+
+#Waxing-con {
+   background: url(../images/waxing.jpg);
+   height: 195px;
+  
+}
+
+#Waxing-heading-box {
+   align-self: end;
+}
+
+#Waxing-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#Waxing-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#Features-con {
+   background: url(../images/Algonquin.jpg);
+   height: 195px;
+
+  
+}
+
+#Features-heading-box {
+   align-self: end;
+}
+
+#Features-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#Features-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
