@@ -341,11 +341,29 @@ p {
 
 #contact-hero-form input[type="submit"]:hover {
    letter-spacing: 0.5em;
-   font-weight: 900;
-   color: #ffffff;
-   width: 300px;
    background-color: #9a2018;
-   border-radius: 0;
+   border-radius: 5px;
+   box-shadow: 0 4px 10px #31313150;
+   animation: send-btn;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+}
+
+@keyframes send-btn {
+   form {
+      border-radius: 5px;
+      color: #f7f7f7;
+      background-color: #ffffff;
+   }
+
+   to {
+      border-radius: 80px;
+      background-color:#e5dbdb;
+      color: #9a2018;
+      transform: scale(1.1);
+      border: #b9b3b350 1px solid;
+   }
 }
 
 #footer-hero {
